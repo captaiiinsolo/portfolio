@@ -21,3 +21,7 @@ nav {
 li {
     display: inline;
 }
+
+li a {
+    margin-right: 15px;
+}

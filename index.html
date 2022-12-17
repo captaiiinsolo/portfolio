@@ -72,13 +72,29 @@
 
         <section id="contactMe">
             <aside>
-                <h4>Conact Info</h4>
                 <article>
+                <h4>Web Presence</h4>
                     <ul>
-                        <li><a href="#">Email</a></li>
                         <li><a href="#">LinkedIn</a></li>
                         <li><a href="#">GitHub Repos</a></li>
                     </ul>
+                </article>
+
+                <article>
+                    <h4>Contact Me</h4>
+                    <form id="contactForm" action="#" method="get">
+                        <label for="usersFName">First Name:</label>
+                        <input type="text" name="usersFName" id="usersFName">
+                        <label for="usersLName">Last Name:</label>
+                        <input type="text" name="usersLName" id="usersLName">
+                        <br>
+                        <label for="company">Company</label>
+                        <input type="text" name="company" id="company">
+                        <label for="phoneNumber">Phone:</label>
+                        <input type="phoneNumber" name="phoneNumber" id="phoneNumber" minlength="10">
+                        <br><br>
+                        <input type="submit" value="Contact Me" form="contactForm">
+                    </form>
                 </article>
             </aside>
         </section>

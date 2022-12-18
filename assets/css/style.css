@@ -16,12 +16,10 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 li {
     display: inline;
 }
 
-li a {
-    margin-right: 15px;
-}

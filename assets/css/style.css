@@ -18,9 +18,46 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
+    overflow: hidden;
 }
 
 nav a {
     color: #f0ffff;
     padding: 15px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+#personalBio {
+    border: solid 3px indianred;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#aboutMe {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+#aboutMe h2 {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+#aboutMe img {
+    height: 150px;
+    width: 150px;
+    padding-bottom: 15px;
+}
+
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }

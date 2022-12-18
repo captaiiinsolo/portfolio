@@ -34,9 +34,8 @@ main {
 }
 
 #personalBio {
-    border: solid 3px indianred;
-    width: 50%;
-    margin: 0 auto;
+    margin: 20px;
+    padding: 40px;
 }
 
 #aboutMe {
@@ -60,4 +59,8 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+
+.project {
+    padding: 25px 0;
 }

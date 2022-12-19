@@ -235,6 +235,13 @@ article h4 {
 }
 
 @media screen and (max-width: 600px) {
+    main {
+        flex: 1 0 auto;
+        text-align: center;
+        padding-bottom: 100px;
+    }
+
+
     header {
         display: flex;
         flex-direction: column;

@@ -40,7 +40,7 @@ main {
 }
 
 #personalBio {
-    margin: 20px;
+    margin: 40px;
     padding: 40px;
 }
 
@@ -128,6 +128,29 @@ input[type=submit] {
 
 footer {
     display: flex;
+    padding: 20px;
+    background: #2f4f4f;
+    justify-content: space-between;
    
 }
 
+#webPresence article {
+    display: flex;
+}
+
+article h4 {
+    display: none;
+}
+
+.footerNav a {
+    padding: 15px;
+}
+
+.footerNav a:hover {
+    box-shadow: 0 0 5px #f0ffff;
+    border-radius: 5px;
+}
+
+.copyright {
+    color: #f0ffff;
+}

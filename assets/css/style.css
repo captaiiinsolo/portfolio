@@ -103,15 +103,15 @@ input[type=submit] {
     position: absolute;
     z-index: 2;
     margin-left: 20px;
+    padding-left: 10px;
 }
 
 .projectHeader + img {
     position: relative;
-    margin-top: -20px;
+    margin-top: -25px;
     z-index: 1;
 }
 
 .projectHeader:hover {
-    text-shadow: 0 0 10px #2f4f4f;
-    text-decoration: underline;
+    color: rgba(48, 80, 80, 0.25);
 }

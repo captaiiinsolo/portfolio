@@ -19,11 +19,17 @@ header {
     top: 0;
     width: 100%;
     overflow: hidden;
+    z-index: 3;
 }
 
 nav a {
     color: #f0ffff;
     padding: 15px;
+}
+
+.headerNav a:hover {
+    box-shadow: 0 0 5px #f0ffff;
+    border-radius: 5px;
 }
 
 main {
@@ -90,4 +96,22 @@ input[type=submit] {
 
 .project {
     padding: 25px 0;
+}
+
+.projectHeader {
+    font-size: 1.75rem;
+    position: absolute;
+    z-index: 2;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+
+.projectHeader + img {
+    position: relative;
+    margin-top: -25px;
+    z-index: 1;
+}
+
+.projectHeader:hover {
+    color: rgba(48, 80, 80, 0.25);
 }

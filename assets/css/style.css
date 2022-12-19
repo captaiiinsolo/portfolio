@@ -115,3 +115,9 @@ input[type=submit] {
 .projectHeader:hover {
     color: rgba(48, 80, 80, 0.25);
 }
+
+footer {
+    display: flex;
+   
+}
+

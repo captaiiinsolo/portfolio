@@ -92,10 +92,20 @@ input[type=submit] {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    padding: 60px;
 }
 
 .project {
-    padding: 25px 0;
+    padding: 25px 25px;
+}
+
+.project:nth-child(1) {
+    flex: 0 0 1320px;
+}
+
+.mainProjectImg {
+    height: 400px;
+    width: 1320px;
 }
 
 .projectHeader {

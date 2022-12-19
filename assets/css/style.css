@@ -216,7 +216,7 @@ article h4 {
     }
 
     footer {
-        width: 100%;
+        width: 992px;
         display: flex;
         background: #4255e5;
         flex: 0 0 auto;
@@ -287,7 +287,7 @@ article h4 {
     }
 
     footer {
-        width: 100%;
+        width: 600px;
         display: flex;
         flex-direction: column;
         background: #4255e5;

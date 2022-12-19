@@ -59,6 +59,14 @@ main {
     padding: 20px;
 }
 
+#contactMe form {
+    display: none;
+}
+
+#contactMe:hover form {
+    display: contents;
+}
+
 input[type=text], 
 input[type=phoneNumber] {
     width: 25%;
@@ -70,7 +78,7 @@ input[type=phoneNumber] {
 }
 
 input[type=submit] {
-    width: 10%;
+    width: 100px;
 }
 
 

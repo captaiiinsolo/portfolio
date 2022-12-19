@@ -178,6 +178,8 @@ article h4 {
     color: #f0ffff;
 }
 
+/* Media Query for tablets */
+
 @media screen and (max-width: 992px) {
     header {
         background: #4255e5;
@@ -234,14 +236,9 @@ article h4 {
     }
 }
 
+/* Media Query for phones */
+
 @media screen and (max-width: 600px) {
-    /* main {
-        flex: 1 0 auto;
-        text-align: center;
-        padding-bottom: 100px;
-    } */
-
-
     header {
         display: flex;
         flex-direction: column;

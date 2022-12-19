@@ -193,6 +193,8 @@ article h4 {
 /* Media Query for tablets */
 
 @media screen and (max-width: 992px) {
+
+
     header {
         background: #4255e5;
     }
@@ -211,6 +213,15 @@ article h4 {
     #aboutMe img {
         width: 400px;
         height: 400px;
+    }
+
+    .contactHeader {
+        width: 100%;
+    }
+
+    input[type=text],
+    input[type=phoneNumber] {
+        width: 100%;
     }
 
     #projects {
@@ -277,6 +288,15 @@ article h4 {
     #aboutMe img {
         width: 400px;
         height: 400px;
+    }
+
+    .contactHeader {
+        width: 100%;
+    }
+
+    input[type=text],
+    input[type=phoneNumber] {
+        width: 100%;
     }
 
     #projects {

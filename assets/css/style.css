@@ -51,18 +51,24 @@ main {
 }
 
 #aboutMe h2 {
-    margin-bottom: 15px;
-    font-size: 1.5rem;
+    margin-bottom: 25px;
+    font-size: x-large;
+}
+
+#aboutMe p {
+    margin-top: 20px;
+    font-size: larger;
 }
 
 #aboutMe img {
-    height: 150px;
-    width: 150px;
-    padding-bottom: 15px;
+    height: 300px;
+    width: 300px;
+    margin-bottom: 20px;
 }
 
 #contactMe {
     padding: 20px;
+    font-size: large;
 }
 
 #contactMe form {
@@ -93,6 +99,7 @@ input[type=submit] {
     flex-wrap: wrap;
     justify-content: space-evenly;
     padding: 60px;
+    margin-top: -60px;
 }
 
 .project {
@@ -117,14 +124,19 @@ input[type=submit] {
     padding-left: 10px;
 }
 
+.projectHeader:hover {
+    color: rgba(48, 80, 80, 0.25);
+}
+
 .projectHeader + img {
     position: relative;
     margin-top: -25px;
     z-index: 1;
+    border-radius: 10px;
 }
 
-.projectHeader:hover {
-    color: rgba(48, 80, 80, 0.25);
+.projectHeader + img:hover {
+    box-shadow: 0 0 15px #4255e5;
 }
 
 footer {
@@ -158,6 +170,10 @@ article h4 {
 }
 
 @media screen and (max-width: 992px) {
+    header {
+        background: #4255e5;
+    }
+    
     #personalBio {
         display: flex;
         flex-direction: column;
@@ -194,6 +210,7 @@ article h4 {
         width: 100%;
         display: flex;
         flex-direction: column;
+        background: #4255e5;
     }
 
     .footerNav {

@@ -55,6 +55,25 @@ main {
     padding-bottom: 15px;
 }
 
+#contactMe {
+    padding: 20px;
+}
+
+input[type=text], 
+input[type=phoneNumber] {
+    width: 25%;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 3px;
+    
+}
+
+input[type=submit] {
+    width: 10%;
+}
+
+
 #projects {
     display: flex;
     flex-wrap: wrap;

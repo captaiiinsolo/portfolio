@@ -136,16 +136,22 @@ input[type=submit] {
     width: 1320px;
 }
 
+.projectImg {
+    height: 400px;
+    width: 400px;
+}
+
 .projectHeader {
     font-size: 1.75rem;
     position: absolute;
     z-index: 2;
     margin-left: 20px;
     padding-left: 10px;
+    color: #f0ffff;
 }
 
 .projectHeader:hover {
-    color: rgba(48, 80, 80, 0.25);
+    color: rgba(48, 80, 80, 0.75);
 }
 
 .projectHeader + img {
@@ -156,7 +162,7 @@ input[type=submit] {
 }
 
 .projectHeader + img:hover {
-    box-shadow: 0 0 15px #4ba7e4;
+    box-shadow: 0 0 25px #2f4f4f;
 }
 
 footer {
@@ -193,6 +199,8 @@ article h4 {
 /* Media Query for tablets */
 
 @media screen and (max-width: 992px) {
+
+
     header {
         background: #4255e5;
     }
@@ -211,6 +219,15 @@ article h4 {
     #aboutMe img {
         width: 400px;
         height: 400px;
+    }
+
+    .contactHeader {
+        width: 100%;
+    }
+
+    input[type=text],
+    input[type=phoneNumber] {
+        width: 100%;
     }
 
     #projects {
@@ -277,6 +294,15 @@ article h4 {
     #aboutMe img {
         width: 400px;
         height: 400px;
+    }
+
+    .contactHeader {
+        width: 100%;
+    }
+
+    input[type=text],
+    input[type=phoneNumber] {
+        width: 100%;
     }
 
     #projects {

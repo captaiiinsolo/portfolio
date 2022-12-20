@@ -223,8 +223,8 @@ article h4 {
     }
 
     #aboutMe img {
-        width: 400px;
-        height: 400px;
+        object-fit: contain;
+        width: 992px;
     }
 
     .contactHeader {
@@ -297,9 +297,14 @@ article h4 {
         margin: 0 auto;
     }
 
+    #aboutMe p {
+        width: 100%;
+        font-size: 16pt;
+    }
+
     #aboutMe img {
-        width: 400px;
-        height: 400px;
+        object-fit: contain;
+        width: 600px;
     }
 
     .contactHeader {
